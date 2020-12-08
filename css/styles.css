@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 6px black;
+}
+
+h2 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 6px black;
+}
+
+body {
+    background-color: blue;
+    background-image: url(https://www.jillycakesorlando.com/wp-content/uploads/2016/02/stock-photo-colorful-rainbow-sprinkles-background-277911083_flip.jpg);
+}
+.container {
+}
+.header {
+    grid-column: span 12;
+    margin-top: 40;
+    margin-left: 20;
+    margin-right: 20;
+    padding: 10;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.main-content {
+    grid-column: span 12; 
+}
