@@ -1,36 +1,108 @@
 h1 {
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'rubik', sans-serif;
+    font-weight: 900;
     font-size: 48px;
     line-height: 48px;
     text-align: center;
     color: white;
-    text-shadow: 2px 1px 6px black;
+    text-shadow: 1px 1px 2px black;
+    -webkit-text-stroke: 2.75px black;
 }
-
 h2 {
-    font-family: 'Montserrat-bold', sans-serif;
+    font-family: 'rubik', sans-serif;
+    font-weight: 900;
     font-size: 36px;
     line-height: 36px;
     text-align: center;
     color: white;
-    text-shadow: 2px 1px 6px black;
+    -webkit-text-stroke: 2.5px black;
+    text-shadow: 1px 1px 2px black;
 }
-
+h3 {
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    width: 100%;
+    font-family: 'rubik', sans-serif;
+    color: white;
+     -webkit-text-stroke: 1px black;
+    text-shadow: 1px 1px 2px black;
+}
+h4 {
+    font-family: 'rubik', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    /* -webkit-text-stroke: 1px black;
+    text-shadow: 1px 1px 2px black; */
+}
 body {
+    top:0;
     background-color: blue;
     background-image: url(https://www.jillycakesorlando.com/wp-content/uploads/2016/02/stock-photo-colorful-rainbow-sprinkles-background-277911083_flip.jpg);
 }
+ul {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-right: 20;
+    /* border-style: solid; */
+    /* border-width: 2; */
+    /* border-color: black; */
+    margin-top: 0;
+    margin-right: 60;
+    padding-top: 20;
+    padding-bottom: 20;
+    border-radius: 20px;
+    display: none;
+}
+li {
+    font-family: 'helvetica', sans-serif;
+    color: black;
+}
 .container {
+    top: 0;
 }
 .header {
     grid-column: span 12;
-    margin-top: 40;
     margin-left: 20;
     margin-right: 20;
     padding: 10;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 10px;
+    padding-top: 30;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
 }
 .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
     grid-column: span 12; 
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button {
+    height: 120;
+    width: auto;
+    margin: 50;
+}
+.ice-cream {
+    position: relative;
+}
+.no-select {
+    pointer-events: none;
+}
+#reset {
+    height: 50;
+    padding: 10;
+    display: none;
+    align-self: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+
 }
