@@ -4,11 +4,9 @@ $(document).ready(function () {
         for (i = 0; i < iceCreamFlavors.length; i++) {
             $('.ice-cream-list').append('<li>' + iceCreamFlavors[i] + '</li>' );
         };
-        document.getElementById('reset').style.display = 'block';
-        document.getElementsByClassName('ice-cream-list')[0].style.display = 'block';
+        document.getElementsByClassName('main-content')[0].style.display = 'flex';
     });
     $('#reset').click(function () {
-        document.getElementById('reset').style.display = 'none';
-        document.getElementsByClassName('ice-cream-list')[0].style.display = 'none';
+        document.getElementsByClassName('main-content')[0].style.display = 'none';
     })
 });
