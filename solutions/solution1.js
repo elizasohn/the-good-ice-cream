@@ -8,5 +8,6 @@ $(document).ready(function () {
     });
     $('#reset').click(function () {
         document.getElementsByClassName('main-content')[0].style.display = 'none';
+        $('.ice-cream-list').empty();
     })
 });
