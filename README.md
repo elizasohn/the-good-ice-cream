@@ -2,6 +2,12 @@
 
 Front end A/B testing demands a strong working knowledge of DOM manipulation. There are often many different ways to achieve the same result.
 
+![](icecreamflavors.gif)
+
+## Result
+
+Three solutions take the initial state of the list to its expected goal state. Solution One maps over the iceCreamFlavors array, Solution Two uses a for loop, and Solution Three uses a for each loop. All solutions are able to be reset by clicking on the "RESET" button. 
+
 ## Challenge
 
 **Provide JavaScript code which will manipulate the initial state of an HTML document with an empty unordered list such that the list will contain 7 ice cream flavors from the global array `iceCreamFlavors` with each flavor as child text of a *li* element with the class "ice-cream-flavor".**
