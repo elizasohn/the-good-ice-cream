@@ -1,11 +1,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Ice Cream Flavors</title>
   <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
 
   <script>
     window.iceCreamFlavors = [
@@ -21,9 +29,34 @@
 
 </head>
 <body>
-  <h1>Ice Cream Flavors</h1>
-  <ul class="ice-cream-list">
-  </ul>
+  <div class="container">
+
+    <div class="header">
+      <h1>Ice Cream Flavors</h1>
+      <h2>The Good</h2>
+    </div>
+
+    <div class="buttons">
+      <div class="ice-cream">
+        <img src="./assets/popsicle.png" class='button' id='button1' />
+        <h3>One</h3>
+      </div>
+      <div class="ice-cream">
+        <img src="./assets/sundae.png" class='button' id='button2' />
+        <h3>Two</h3>
+      </div>
+      <div class="ice-cream">
+        <img src="./assets/cone.png" class='button' id='button3' />
+        <h3>Three</h3>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <ul class="ice-cream-list">
+      </ul>
+      <button id="reset">RESET</button>
+    </div>
+  </div>
 
   <script src="solutions/solution1.js"></script>
   <script src="solutions/solution2.js"></script>
