@@ -6,6 +6,8 @@ Front end A/B testing demands a strong working knowledge of DOM manipulation. Th
 
 ## Result
 
+Deployed site may be accessed here: [https://elizasohn.github.io/the-good-ice-cream/](https://elizasohn.github.io/the-good-ice-cream/)
+
 Three solutions take the initial state of the list to its expected goal state. Solution One maps over the iceCreamFlavors array, Solution Two uses a for loop, and Solution Three uses a for each loop. All solutions are able to be reset by clicking on the "RESET" button. 
 
 ## Challenge
