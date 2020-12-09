@@ -99,5 +99,6 @@ li {
     border-color: black;
     border-width: 2px;
     background-color: white;
+    outline: none;
 
 }
